@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 
-driver = webdriver.Chrome('C:\webdrivers\chromedriver.exe')
+driver = webdriver.Chrome('PATH_TO_WEBDRIVER')
 print("Your credentials are not stored or passed anywhere.\n---------------------------------------------------")
 username = input("Enter username : ")
 password = input("Enter your password : ")
